@@ -1,23 +1,190 @@
-<img src="https://github.com/nazmulhasan1010/nazmulhasan1010/blob/main/github-header-image%20(1).png">
+<!-- Gradient Styled Title with Mulish Font -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Mulish&weight=900&size=38&duration=2800&pause=900&color=fff&center=true&vCenter=true&width=1000&height=120&lines=NAZMUL+HASAN;FULL+STACK+SOFTWARE+ENGINEER;NEXT.JS+%7C+LARAVEL+%7C+REACT"/>
+</p>
 
-# Tech Stack
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![Less](https://img.shields.io/badge/less-2B4C80?style=for-the-badge&logo=less&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![Symfony](https://img.shields.io/badge/symfony-%23000000.svg?style=for-the-badge&logo=symfony&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Apache Ant](https://img.shields.io/badge/Apache%20Ant-A81C7D?style=for-the-badge&logo=Apache%20Ant&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Adobe Dreamweaver](https://img.shields.io/badge/Adobe%20Dreamweaver-FF61F6.svg?style=for-the-badge&logo=Adobe%20Dreamweaver&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobeillustrator-%23FF9A00.svg?style=for-the-badge&logo=adobeillustrator&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobephotoshop-%2331A8FF.svg?style=for-the-badge&logo=adobephotoshop&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) 	![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
-### Badges
-
-<b>My GitHub Stats</b>
-
-<a href="http://www.github.com/nazmulhasan1010"><img src="https://github-readme-stats.vercel.app/api?username=nazmulhasan1010&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="nazmulhasan1010's GitHub stats" /></a>
-
-<a href="http://www.github.com/nazmulhasan1010"><img src="https://github-readme-streak-stats.herokuapp.com/?user=nazmulhasan1010&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
-
-<a href="https://github.com/nazmulhasan1010" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nazmulhasan1010&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+<img src="https://github.com/nazmulhasan1010/nazmulhasan1010/blob/main/banner.png" width="100%"/>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=nazmulhasan1010&icon=0&color=0)](https://visitcount.itsvg.in)
+
+## CONTACT PERSON
+
+<p>
+<a href="mailto:nazmulhasan169369@gmail.com">
+  <img src="https://img.shields.io/badge/Email-0A192F?style=for-the-badge&logo=gmail&logoColor=0EA5E9"/>
+</a>
+
+<a href="https://linkedin.com/in/yourprofile">
+  <img src="https://img.shields.io/badge/LinkedIn-0A192F?style=for-the-badge&logo=linkedin&logoColor=0EA5E9"/>
+</a>
+
+<a href="https://www.npmjs.com/~nazmul_hasan_1010">
+  <img src="https://img.shields.io/badge/NPM-0A192F?style=for-the-badge&logo=npm&logoColor=0EA5E9"/>
+</a>
+
+<a href="https://github.com/nazmulhasan1010">
+  <img src="https://img.shields.io/badge/GitHub-0A192F?style=for-the-badge&logo=github&logoColor=0EA5E9"/>
+</a>
+</p>
+
+---
+
+## PROFESSIONAL SUMMARY
+
+> Software Engineer focused on scalable architecture, secure backend systems and modern frontend development. Building maintainable applications with performance-driven design and clean engineering standards.
+
+<table>
+<tr>
+<td width="50%">
+
+### CORE EXPERTISE
+- Web Application Architecture
+- REST & Realtime API Development
+- Database Modeling
+- UI Engineering
+- Cloud Deployment
+- Automlination Pipees
+- Technical Documentation
+
+</td>
+<td width="50%">
+
+### WORK PRINCIPLES
+- Clean Code Standards
+- Scalable Design
+- Security First
+- Performance Optimization
+- Continuous Integration
+- Modular Development
+- Testable Code
+
+</td>
+</tr>
+</table>
+
+---
+
+# TECHNOLOGY STACK
+
+## LANGUAGES
+![JavaScript](https://img.shields.io/badge/JavaScript-0A192F?style=for-the-badge&logo=javascript&logoColor=0EA5E9)
+![TypeScript](https://img.shields.io/badge/TypeScript-0A192F?style=for-the-badge&logo=typescript&logoColor=0EA5E9)
+![PHP](https://img.shields.io/badge/PHP-0A192F?style=for-the-badge&logo=php&logoColor=0EA5E9)
+![Python](https://img.shields.io/badge/Python-0A192F?style=for-the-badge&logo=python&logoColor=0EA5E9)
+![CSS3](https://img.shields.io/badge/CSS3-0A192F?style=for-the-badge&logo=css3&logoColor=0EA5E9)
+
+---
+
+## FRAMEWORKS & LIBRARIES
+
+### Frontend
+![Next.js](https://img.shields.io/badge/Next.js-0A192F?style=for-the-badge&logo=next.js&logoColor=0EA5E9)
+![React](https://img.shields.io/badge/React-0A192F?style=for-the-badge&logo=react&logoColor=0EA5E9)
+![Angular](https://img.shields.io/badge/Angular-0A192F?style=for-the-badge&logo=angular&logoColor=0EA5E9)
+![Tailwind](https://img.shields.io/badge/Tailwind-0A192F?style=for-the-badge&logo=tailwindcss&logoColor=0EA5E9)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-0A192F?style=for-the-badge&logo=bootstrap&logoColor=0EA5E9)
+
+### Laravel Ecosystem
+![Laravel](https://img.shields.io/badge/Laravel-0A192F?style=for-the-badge&logo=laravel&logoColor=0EA5E9)
+![Filament](https://img.shields.io/badge/Filament-0A192F?style=for-the-badge&logo=laravel&logoColor=0EA5E9)
+![Livewire](https://img.shields.io/badge/Livewire-0A192F?style=for-the-badge&logo=laravel&logoColor=0EA5E9)
+![Symfony](https://img.shields.io/badge/Symfony-0A192F?style=for-the-badge&logo=symfony&logoColor=0EA5E9)
+
+### Utilities
+![Socket.io](https://img.shields.io/badge/Socket.io-0A192F?style=for-the-badge&logo=socket.io&logoColor=0EA5E9)
+![Chart.js](https://img.shields.io/badge/Chart.js-0A192F?style=for-the-badge&logo=chart.js&logoColor=0EA5E9)
+
+---
+
+## DATABASE
+![MySQL](https://img.shields.io/badge/MySQL-0A192F?style=for-the-badge&logo=mysql&logoColor=0EA5E9)
+![MariaDB](https://img.shields.io/badge/MariaDB-0A192F?style=for-the-badge&logo=mariadb&logoColor=0EA5E9)
+![MongoDB](https://img.shields.io/badge/MongoDB-0A192F?style=for-the-badge&logo=mongodb&logoColor=0EA5E9)
+
+---
+
+## DEVOPS & TOOLS
+![Docker](https://img.shields.io/badge/Docker-0A192F?style=for-the-badge&logo=docker&logoColor=0EA5E9)
+![Postman](https://img.shields.io/badge/Postman-0A192F?style=for-the-badge&logo=postman&logoColor=0EA5E9)
+![Jira](https://img.shields.io/badge/Jira-0A192F?style=for-the-badge&logo=jira&logoColor=0EA5E9)
+
+---
+
+# GITHUB PERFORMANCE
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=nazmulhasan1010&show_icons=true&hide_border=true&bg_color=0A192F&title_color=0EA5E9&icon_color=0EA5E9&text_color=ffffff"/>
+</p>
+
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=nazmulhasan1010&hide_border=true&background=0A192F&ring=0EA5E9&fire=0EA5E9"/>
+</p>
+
+---
+
+# FEATURED PROJECTS
+
+<table>
+
+<tr>
+<td width="50%">
+
+### NH Notification
+- A modern Laravel package for notifications.
+- Sending Email
+- Sending SMS
+- Push notifications
+- Modern Design
+
+</td>
+<td width="50%">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=nazmulhasan1010&repo=nht-notification&bg_color=0A192F&title_color=0891b2&text_color=ffffff&hide_border=true"/>
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### Laravel File Manager
+- Storage management
+- Modern CSS Layout
+- File Manager
+
+</td>
+<td width="50%">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=nazmulhasan1010&repo=laravel-file-manager&bg_color=0A192F&title_color=0891b2&text_color=ffffff&hide_border=true"/>
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### Pricing Card System
+- Responsive UI
+- Modern CSS Layout
+- Animation Driven
+- Production Ready
+
+</td>
+<td width="50%">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=nazmulhasan1010&repo=Pricing-card&bg_color=0A192F&title_color=0891b2&text_color=ffffff&hide_border=true"/>
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### Chat Application
+- Realtime Messaging
+- Socket Integration
+- Scalable Backend
+- Secure Auth
+
+</td>
+<td width="50%">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=nazmulhasan1010&repo=chat-app&bg_color=0A192F&title_color=0891b2&text_color=ffffff&hide_border=true"/>
+</td>
+</tr>
+</table>
 
 
-<b>Top Repositories</b>
-
-<div width="100%" align="center"><a href="https://github.com/nazmulhasan1010/Pricing-card" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=nazmulhasan1010&repo=Pricing-card&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a><a href="https://github.com/nazmulhasan1010/chat-app" align="right"><img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=nazmulhasan1010&repo=chat-app&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a></div><br /><br /><br /><br /><br /><br /><br />
-
-<div width="100%" align="center"><a href="https://github.com/nazmulhasan1010/Burger-Shop" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=nazmulhasan1010&repo=Burger-Shop&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a><a href="https://github.com/nazmulhasan1010/it-companey" align="right"><img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=nazmulhasan1010&repo=it-companey&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a></div>
