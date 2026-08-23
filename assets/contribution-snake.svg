@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" viewBox="0 0 1000 210" role="img" aria-labelledby="st sd">
+  <title id="st">Contribution snake</title>
+  <desc id="sd">Placeholder for the contribution snake animation, generated automatically by GitHub Actions.</desc>
+  <defs>
+    <pattern id="sq" width="22" height="22" patternUnits="userSpaceOnUse">
+      <rect width="18" height="18" rx="4" fill="#13273D"/>
+    </pattern>
+    <filter id="sglow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <!-- contribution grid -->
+  <rect x="60" y="28" width="880" height="154" fill="url(#sq)" opacity=".85"/>
+
+  <!-- snake -->
+  <path d="M80 118 C 240 58, 380 168, 540 112 C 660 72, 780 150, 920 108"
+        fill="none" stroke="#0EA5E9" stroke-width="12" stroke-linecap="round"
+        stroke-dasharray="120 900">
+    <animate attributeName="stroke-dashoffset" from="1020" to="0" dur="6s" repeatCount="indefinite"/>
+  </path>
+  <circle r="7" fill="#67E8F9" filter="url(#sglow)">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M80 118 C 240 58, 380 168, 540 112 C 660 72, 780 150, 920 108"/>
+  </circle>
+</svg>

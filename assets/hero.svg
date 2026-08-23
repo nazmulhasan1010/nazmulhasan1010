@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="ht hd">
+  <title id="ht">Nazmul Hasan - Full Stack Software Engineer</title>
+  <desc id="hd">Animated hero banner showing name, role, technology stack and engineering tagline over a dark technical grid.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111F"/>
+      <stop offset=".5" stop-color="#0A192F"/>
+      <stop offset="1" stop-color="#0D1D30"/>
+    </linearGradient>
+    <linearGradient id="tg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#BDE9FB"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1E3A5F" stroke-width=".6" opacity=".45"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="blurT" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+  <style>
+    .flow { stroke-dasharray: 6 12; animation: dash 26s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -288; } }
+    .p { animation: fade 10s ease-in-out infinite; }
+    @keyframes fade { 0%, 100% { opacity: 0; } 50% { opacity: .9; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <!-- backdrop -->
+  <rect width="1200" height="360" rx="16" fill="url(#bg)"/>
+  <g>
+    <rect x="1" y="1" width="1198" height="358" rx="16" fill="url(#grid)" opacity=".5"/>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="40 40" dur="60s" repeatCount="indefinite"/>
+  </g>
+  <ellipse cx="600" cy="180" rx="520" ry="170" fill="url(#halo)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="16" fill="none" stroke="#1E3A5F" opacity=".7"/>
+
+  <!-- corner accents -->
+  <path d="M30 56V30h26" fill="none" stroke="#0EA5E9" stroke-width="1.6" opacity=".55"/>
+  <path d="M1170 304v26h-26" fill="none" stroke="#0EA5E9" stroke-width="1.6" opacity=".55"/>
+
+  <!-- network curves -->
+  <path class="flow" d="M-40 268 C 240 210, 420 322, 640 258 C 850 200, 1020 176, 1240 236" fill="none" stroke="#38BDF8" stroke-width="1.4" opacity=".14"/>
+  <path class="flow" d="M-40 120 C 260 170, 520 84, 760 128 C 950 162, 1100 120, 1240 96" fill="none" stroke="#38BDF8" stroke-width="1.2" opacity=".10"/>
+  <circle r="2.6" fill="#67E8F9" filter="url(#glow)">
+    <animateMotion dur="13s" repeatCount="indefinite" path="M-40 268 C 240 210, 420 322, 640 258 C 850 200, 1020 176, 1240 236"/>
+  </circle>
+  <circle r="2.2" fill="#38BDF8" filter="url(#glow)">
+    <animateMotion dur="17s" begin="-7s" repeatCount="indefinite" path="M-40 120 C 260 170, 520 84, 760 128 C 950 162, 1100 120, 1240 96"/>
+  </circle>
+
+  <!-- particles -->
+  <circle class="p" cx="96" cy="300" r="1.8" fill="#38BDF8" style="animation-delay:-2s"><animate attributeName="cy" from="300" to="276" dur="11s" begin="-2s" repeatCount="indefinite"/></circle>
+  <circle class="p" cx="150" cy="90" r="1.4" fill="#67E8F9" style="animation-delay:-5s"><animate attributeName="cy" from="90" to="70" dur="9s" begin="-5s" repeatCount="indefinite"/></circle>
+  <circle class="p" cx="232" cy="208" r="2" fill="#0EA5E9"><animate attributeName="cy" from="208" to="186" dur="13s" repeatCount="indefinite"/></circle>
+  <circle class="p" cx="305" cy="64" r="1.3" fill="#38BDF8" style="animation-delay:-3s"><animate attributeName="cy" from="64" to="46" dur="8s" begin="-3s" repeatCount="indefinite"/></circle>
+  <circle class="p" cx="372" cy="286" r="1.6" fill="#67E8F9" style="animation-delay:-7s"><animate attributeName="cy" from="286" to="264" dur="12s" begin="-7s" repeatCount="indefinite"/></circle>
+  <circle class="p" cx="458" cy="120" r="1.4" fill="#38BDF8" style="animation-delay:-1s"><animate attributeName="cy" from="120" to="98" dur="10s" begin="-1s" repeatCount="indefinite"/></circle>
+  <circle class="p" cx="540" cy="318" r="2.2" fill="#0EA5E9" style="animation-delay:-4s"><animate attributeName="cy" from="318" to="294" dur="14s" begin="-4s" repeatCount="indefinite"/></circle>
+  <circle class="p" cx="612" cy="58" r="1.5" fill="#67E8F9" style="animation-delay:-6s"><animate attributeName="cy" from="58" to="42" dur="9s" begin="-6s" repeatCount="indefinite"/></circle>
+  <circle class="p" cx="688" cy="232" r="1.7" fill="#38BDF8" style="animation-delay:-8s"><animate attributeName="cy" from="232" to="208" dur="12s" begin="-8s" repeatCount="indefinite"/></circle>
+  <circle class="p" cx="762" cy="96" r="1.3" fill="#0EA5E9" style="animation-delay:-2.5s"><animate attributeName="cy" from="96" to="78" dur="8s" begin="-2.5s" repeatCount="indefinite"/></circle>
+  <circle class="p" cx="842" cy="296" r="2" fill="#67E8F9" style="animation-delay:-5.5s"><animate attributeName="cy" from="296" to="274" dur="13s" begin="-5.5s" repeatCount="indefinite"/></circle>
+  <circle class="p" cx="912" cy="150" r="1.4" fill="#38BDF8"><animate attributeName="cy" from="150" to="130" dur="10s" begin="-.5s" repeatCount="indefinite"/></circle>
+  <circle class="p" cx="992" cy="258" r="1.8" fill="#0EA5E9" style="animation-delay:-3.5s"><animate attributeName="cy" from="258" to="236" dur="12s" begin="-3.5s" repeatCount="indefinite"/></circle>
+  <circle class="p" cx="1062" cy="74" r="1.5" fill="#67E8F9" style="animation-delay:-6.5s"><animate attributeName="cy" from="74" to="56" dur="9s" begin="-6.5s" repeatCount="indefinite"/></circle>
+  <circle class="p" cx="1132" cy="190" r="2.1" fill="#38BDF8" style="animation-delay:-1.5s"><animate attributeName="cy" from="190" to="166" dur="13s" begin="-1.5s" repeatCount="indefinite"/></circle>
+  <circle class="p" cx="1176" cy="308" r="1.4" fill="#0EA5E9" style="animation-delay:-4.5s"><animate attributeName="cy" from="308" to="288" dur="10s" begin="-4.5s" repeatCount="indefinite"/></circle>
+
+  <!-- backdrop code -->
+  <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12.5" fill="#FFFFFF" opacity=".055">
+    <text x="56" y="232">const engineer = {</text>
+    <text x="72" y="250">frontend: "Next.js",</text>
+    <text x="72" y="268">backend: "Laravel",</text>
+    <text x="72" y="286">mindset: "build &#8594; measure &#8594; improve"</text>
+    <text x="56" y="304">}</text>
+    <text x="1144" y="286" text-anchor="end">deploy();</text>
+    <text x="1144" y="304" text-anchor="end">// ship.value++</text>
+  </g>
+
+  <!-- status -->
+  <g>
+    <circle cx="450" cy="66" r="3" fill="none" stroke="#38BDF8">
+      <animate attributeName="r" values="3;11" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".7;0" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="66" r="3.2" fill="#38BDF8" filter="url(#glow)">
+      <animate attributeName="opacity" values=".6;1;.6" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="466" y="71" font-family="'Segoe UI',Arial,sans-serif" font-size="12" letter-spacing="3.5" font-weight="600" fill="#67E8F9">BUILDING PRODUCTION SYSTEMS</text>
+  </g>
+
+  <!-- headline -->
+  <text x="600" y="156" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="64" font-weight="800" letter-spacing="6" fill="#38BDF8" opacity=".35" filter="url(#blurT)">NAZMUL HASAN</text>
+  <text x="600" y="156" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="64" font-weight="800" letter-spacing="6" fill="url(#tg)">NAZMUL HASAN</text>
+
+  <!-- subtitle -->
+  <text x="600" y="200" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="19" letter-spacing="7" font-weight="600" fill="#38BDF8">FULL STACK SOFTWARE ENGINEER</text>
+
+  <!-- stack line -->
+  <text x="600" y="240" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="15.5" letter-spacing="1.5" fill="#94A3B8">Next.js<tspan fill="#0EA5E9">&#160;&#160;&#8226;&#160;&#160;</tspan>Laravel<tspan fill="#0EA5E9">&#160;&#160;&#8226;&#160;&#160;</tspan>React<tspan fill="#0EA5E9">&#160;&#160;&#8226;&#160;&#160;</tspan>TypeScript<tspan fill="#0EA5E9">&#160;&#160;&#8226;&#160;&#160;</tspan>PHP</text>
+
+  <!-- statement -->
+  <text x="600" y="274" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="13.5" font-style="italic" fill="#7E93AC">Building scalable systems, secure APIs and modern digital experiences.</text>
+</svg>

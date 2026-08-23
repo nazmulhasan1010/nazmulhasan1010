@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="ot od">
+  <title id="ot">Technology ecosystem</title>
+  <desc id="od">Frontend, backend, data and engineering technologies arranged in an orbital architecture around a central Full Stack Engineering core.</desc>
+  <defs>
+    <radialGradient id="cglow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#0EA5E9" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="oglow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .ring { animation: march 30s linear infinite; }
+    @keyframes march { to { stroke-dashoffset: -280; } }
+    text { font-family: 'Segoe UI',Arial,sans-serif; }
+    .it { font-family: 'JetBrains Mono','Fira Code',Consolas,monospace; font-size: 13px; fill: #9FB3CC; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <!-- orbits -->
+  <ellipse class="ring" cx="450" cy="310" rx="205" ry="125" fill="none" stroke="#1E3A5F" stroke-width="1" stroke-dasharray="5 9"/>
+  <ellipse class="ring" cx="450" cy="310" rx="330" ry="215" fill="none" stroke="#1E3A5F" stroke-width="1" stroke-dasharray="4 11" opacity=".7"/>
+
+  <!-- satellites -->
+  <circle r="3" fill="#38BDF8" filter="url(#oglow)">
+    <animateMotion dur="34s" repeatCount="indefinite" path="M 120 310 a 330 215 0 1 0 660 0 a 330 215 0 1 0 -660 0"/>
+  </circle>
+  <circle r="2.5" fill="#67E8F9" filter="url(#oglow)">
+    <animateMotion dur="34s" begin="-17s" repeatCount="indefinite" path="M 120 310 a 330 215 0 1 0 660 0 a 330 215 0 1 0 -660 0"/>
+  </circle>
+  <circle r="2.5" fill="#38BDF8" filter="url(#oglow)">
+    <animateMotion dur="26s" begin="-8s" repeatCount="indefinite" path="M 245 310 a 205 125 0 1 0 410 0 a 205 125 0 1 0 -410 0"/>
+  </circle>
+
+  <!-- center core -->
+  <circle cx="450" cy="310" r="115" fill="url(#cglow)"/>
+  <circle cx="450" cy="310" r="92" fill="none" stroke="#38BDF8" stroke-width="1" stroke-dasharray="3 7" opacity=".55">
+    <animateTransform attributeName="transform" type="rotate" from="0 450 310" to="360 450 310" dur="50s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="310" r="80" fill="#0A192F" stroke="#0EA5E9" stroke-width="1.5"/>
+  <text x="450" y="303" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#E2E8F0">FULL STACK</text>
+  <text x="450" y="325" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="#E2E8F0">ENGINEERING</text>
+
+  <!-- frontend card -->
+  <g>
+    <rect x="60" y="44" width="235" height="174" rx="12" fill="#0D1D30" stroke="#1E3A5F"/>
+    <circle cx="80" cy="70" r="4" fill="#38BDF8"/>
+    <text x="92" y="75" font-size="13" font-weight="700" letter-spacing="3" fill="#38BDF8">FRONTEND</text>
+    <line x1="76" y1="90" x2="279" y2="90" stroke="#1E3A5F"/>
+    <text class="it" x="88" y="114"><tspan fill="#38BDF8">&#183;</tspan> Next.js</text>
+    <text class="it" x="88" y="138"><tspan fill="#38BDF8">&#183;</tspan> React</text>
+    <text class="it" x="88" y="162"><tspan fill="#38BDF8">&#183;</tspan> TypeScript</text>
+    <text class="it" x="88" y="186"><tspan fill="#38BDF8">&#183;</tspan> JavaScript</text>
+    <text class="it" x="88" y="210"><tspan fill="#38BDF8">&#183;</tspan> Tailwind CSS</text>
+  </g>
+
+  <!-- backend card -->
+  <g>
+    <rect x="605" y="44" width="235" height="174" rx="12" fill="#0D1D30" stroke="#1E3A5F"/>
+    <circle cx="625" cy="70" r="4" fill="#0EA5E9"/>
+    <text x="637" y="75" font-size="13" font-weight="700" letter-spacing="3" fill="#0EA5E9">BACKEND</text>
+    <line x1="621" y1="90" x2="824" y2="90" stroke="#1E3A5F"/>
+    <text class="it" x="633" y="114"><tspan fill="#0EA5E9">&#183;</tspan> Laravel</text>
+    <text class="it" x="633" y="138"><tspan fill="#0EA5E9">&#183;</tspan> PHP</text>
+    <text class="it" x="633" y="162"><tspan fill="#0EA5E9">&#183;</tspan> Symfony</text>
+    <text class="it" x="633" y="186"><tspan fill="#0EA5E9">&#183;</tspan> Livewire</text>
+    <text class="it" x="633" y="210"><tspan fill="#0EA5E9">&#183;</tspan> Filament</text>
+  </g>
+
+  <!-- data card -->
+  <g>
+    <rect x="60" y="398" width="235" height="174" rx="12" fill="#0D1D30" stroke="#1E3A5F"/>
+    <circle cx="80" cy="424" r="4" fill="#67E8F9"/>
+    <text x="92" y="429" font-size="13" font-weight="700" letter-spacing="3" fill="#67E8F9">DATA</text>
+    <line x1="76" y1="444" x2="279" y2="444" stroke="#1E3A5F"/>
+    <text class="it" x="88" y="468"><tspan fill="#67E8F9">&#183;</tspan> MySQL</text>
+    <text class="it" x="88" y="492"><tspan fill="#67E8F9">&#183;</tspan> MariaDB</text>
+    <text class="it" x="88" y="516"><tspan fill="#67E8F9">&#183;</tspan> MongoDB</text>
+    <text class="it" x="88" y="540"><tspan fill="#67E8F9">&#183;</tspan> Redis</text>
+  </g>
+
+  <!-- engineering card -->
+  <g>
+    <rect x="605" y="398" width="235" height="174" rx="12" fill="#0D1D30" stroke="#1E3A5F"/>
+    <circle cx="625" cy="424" r="4" fill="#F97316"/>
+    <text x="637" y="429" font-size="13" font-weight="700" letter-spacing="3" fill="#F97316">ENGINEERING</text>
+    <line x1="621" y1="444" x2="824" y2="444" stroke="#1E3A5F"/>
+    <text class="it" x="633" y="468"><tspan fill="#F97316">&#183;</tspan> Docker</text>
+    <text class="it" x="633" y="492"><tspan fill="#F97316">&#183;</tspan> Git + GitHub Actions</text>
+    <text class="it" x="633" y="516"><tspan fill="#F97316">&#183;</tspan> Postman</text>
+    <text class="it" x="633" y="540"><tspan fill="#F97316">&#183;</tspan> Socket.io</text>
+  </g>
+</svg>

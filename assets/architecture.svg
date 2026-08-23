@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="540" viewBox="0 0 920 540" role="img" aria-labelledby="at ad">
+  <title id="at">System architecture</title>
+  <desc id="ad">Requests flow from client through Next.js or React into an API layer and Laravel services down to MySQL or MongoDB, with an async queue branch for notifications delivered via email, SMS and push.</desc>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 1 L9 5 L0 9" fill="none" stroke="#0EA5E9" stroke-width="1.8" stroke-linecap="round"/>
+    </marker>
+    <filter id="aglow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI',Arial,sans-serif; }
+    .bt { font-size: 14px; font-weight: 600; fill: #E2E8F0; text-anchor: middle; }
+    .bs { font-size: 10.5px; fill: #64748B; text-anchor: middle; letter-spacing: 1px; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <!-- captions -->
+  <text x="290" y="24" text-anchor="middle" font-size="11" letter-spacing="3" fill="#64748B">CORE REQUEST PATH</text>
+  <text x="740" y="116" text-anchor="middle" font-size="11" letter-spacing="3" fill="#64748B">ASYNC PIPELINE</text>
+
+  <!-- spine (under boxes) -->
+  <line x1="290" y1="63" x2="290" y2="430" stroke="#1E3A5F" stroke-width="1.5"/>
+
+  <!-- connectors -->
+  <g stroke="#0EA5E9" stroke-width="1.4" opacity=".55">
+    <line x1="290" y1="86" x2="290" y2="113" marker-end="url(#arr)"/>
+    <line x1="290" y1="164" x2="290" y2="191" marker-end="url(#arr)"/>
+    <line x1="290" y1="242" x2="290" y2="269" marker-end="url(#arr)"/>
+    <line x1="290" y1="320" x2="290" y2="347" marker-end="url(#arr)"/>
+    <line x1="290" y1="398" x2="290" y2="425" marker-end="url(#arr)"/>
+    <path d="M410 219 C 500 219, 550 173, 633 173" fill="none" marker-end="url(#arr)"/>
+    <line x1="740" y1="173" x2="740" y2="220" marker-end="url(#arr)"/>
+    <line x1="740" y1="271" x2="740" y2="316" marker-end="url(#arr)"/>
+  </g>
+
+  <!-- main boxes -->
+  <g>
+    <rect x="170" y="40" width="240" height="46" rx="10" fill="#0D1D30" stroke="#1E3A5F"/>
+    <text class="bt" x="290" y="60">Client</text>
+    <text class="bs" x="290" y="77">browser &#183; mobile</text>
+
+    <rect x="170" y="118" width="240" height="46" rx="10" fill="#0D1D30" stroke="#0EA5E9" stroke-opacity=".75"/>
+    <text class="bt" x="290" y="138">Next.js / React</text>
+    <text class="bs" x="290" y="155">SSR &#183; SPA &#183; UX</text>
+
+    <rect x="170" y="196" width="240" height="46" rx="10" fill="#0D1D30" stroke="#0EA5E9" stroke-opacity=".75"/>
+    <text class="bt" x="290" y="216">API Layer</text>
+    <text class="bs" x="290" y="233">REST &#183; auth &#183; validation</text>
+
+    <rect x="170" y="274" width="240" height="46" rx="10" fill="#0D1D30" stroke="#0EA5E9" stroke-opacity=".75"/>
+    <text class="bt" x="290" y="294">Laravel</text>
+    <text class="bs" x="290" y="311">domain logic</text>
+
+    <rect x="170" y="352" width="240" height="46" rx="10" fill="#0D1D30" stroke="#0EA5E9" stroke-opacity=".75"/>
+    <text class="bt" x="290" y="372">Services</text>
+    <text class="bs" x="290" y="389">jobs &#183; events &#183; integrations</text>
+
+    <rect x="170" y="430" width="240" height="46" rx="10" fill="#0D1D30" stroke="#1E3A5F"/>
+    <text class="bt" x="290" y="450">MySQL / MongoDB</text>
+    <text class="bs" x="290" y="467">persistence</text>
+  </g>
+
+  <!-- async boxes -->
+  <g>
+    <rect x="640" y="127" width="200" height="46" rx="10" fill="#0D1D30" stroke="#0EA5E9" stroke-opacity=".75"/>
+    <text class="bt" x="740" y="147">Queue</text>
+    <text class="bs" x="740" y="164">redis &#183; database</text>
+
+    <rect x="640" y="225" width="200" height="46" rx="10" fill="#0D1D30" stroke="#0EA5E9" stroke-opacity=".75"/>
+    <text class="bt" x="740" y="245">Notification</text>
+    <text class="bs" x="740" y="262">driver based</text>
+
+    <rect x="640" y="321" width="200" height="46" rx="10" fill="#0D1D30" stroke="#1E3A5F"/>
+    <text class="bt" x="740" y="341">Email / SMS / Push</text>
+    <text class="bs" x="740" y="358">multi channel delivery</text>
+  </g>
+
+  <!-- packets -->
+  <circle r="3.4" fill="#67E8F9" filter="url(#aglow)">
+    <animateMotion dur="7s" repeatCount="indefinite" path="M290 63 L290 430"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.06;.94;1" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2.6" fill="#38BDF8" filter="url(#aglow)">
+    <animateMotion dur="7s" begin="-3.5s" repeatCount="indefinite" path="M290 63 L290 430"/>
+    <animate attributeName="opacity" values="0;.8;.8;0" keyTimes="0;.06;.94;1" dur="7s" begin="-3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#67E8F9" filter="url(#aglow)">
+    <animateMotion dur="6s" begin="-2s" repeatCount="indefinite" path="M410 219 C 500 219, 550 173, 640 173 L740 173 L740 317"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.06;.94;1" dur="6s" begin="-2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

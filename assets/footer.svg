@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-labelledby="ft fd">
+  <title id="ft">Build, Ship, Improve</title>
+  <desc id="fd">Dark animated wave footer with the motto Build, Ship, Improve and a thank you message.</desc>
+  <defs>
+    <linearGradient id="fw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0D1D30"/>
+      <stop offset="1" stop-color="#07111F"/>
+    </linearGradient>
+    <filter id="fglow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI',Arial,sans-serif; }
+    .pp { animation: rise 12s ease-in infinite; opacity: 0; }
+    @keyframes rise { 0% { transform: translate(0,0); opacity: 0; } 15% { opacity: .8; } 85% { opacity: .5; } 100% { transform: translate(0,-46px); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <!-- waves -->
+  <path d="M0 118 C 180 78, 360 158, 600 118 C 840 78, 1020 150, 1200 108 L1200 180 L0 180 Z" fill="url(#fw)"/>
+  <path d="M0 118 C 180 78, 360 158, 600 118 C 840 78, 1020 150, 1200 108" fill="none" stroke="#38BDF8" stroke-width="1.3" opacity=".35"/>
+
+  <!-- traveling light along the wave -->
+  <circle r="2.6" fill="#67E8F9" filter="url(#fglow)">
+    <animateMotion dur="9s" repeatCount="indefinite" path="M0 118 C 180 78, 360 158, 600 118 C 840 78, 1020 150, 1200 108"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.06;.94;1" dur="9s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- rising particles -->
+  <circle class="pp" cx="150" cy="150" r="1.6" fill="#38BDF8"/>
+  <circle class="pp" cx="350" cy="160" r="1.3" fill="#67E8F9" style="animation-delay:-3s"/>
+  <circle class="pp" cx="620" cy="148" r="1.7" fill="#0EA5E9" style="animation-delay:-6s"/>
+  <circle class="pp" cx="860" cy="158" r="1.3" fill="#38BDF8" style="animation-delay:-8.5s"/>
+  <circle class="pp" cx="1080" cy="150" r="1.6" fill="#67E8F9" style="animation-delay:-10.5s"/>
+
+  <!-- copy -->
+  <text x="600" y="66" text-anchor="middle" font-size="22" font-weight="700" letter-spacing="8" fill="#E2E8F0">BUILD<tspan fill="#0EA5E9">&#160;&#160;&#8226;&#160;&#160;</tspan>SHIP<tspan fill="#0EA5E9">&#160;&#160;&#8226;&#160;&#160;</tspan>IMPROVE</text>
+  <text x="600" y="96" text-anchor="middle" font-size="13" fill="#94A3B8">Thanks for visiting.</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430" role="img" aria-labelledby="tt td">
+  <title id="tt">Terminal - Nazmul Hasan profile</title>
+  <desc id="td">A terminal window that sequentially reveals whoami, role, stack, focus and status lines with a blinking cursor.</desc>
+  <defs>
+    <linearGradient id="thead" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0D1D30"/>
+      <stop offset="1" stop-color="#0A192F"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .ln { opacity: 0; animation: tin .35s ease-out forwards; }
+    @keyframes tin { to { opacity: 1; } }
+    .l1 { animation-delay: .25s } .l2 { animation-delay: .55s } .l3 { animation-delay: .85s }
+    .l4 { animation-delay: 1.15s } .l5 { animation-delay: 1.45s } .l6 { animation-delay: 1.75s }
+    .l7 { animation-delay: 2.05s } .l8 { animation-delay: 2.30s } .l9 { animation-delay: 2.55s }
+    .l10 { animation-delay: 2.80s } .l11 { animation-delay: 3.10s } .l12 { animation-delay: 3.40s }
+    .cur { animation: blink 1.1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    text { font-family: 'JetBrains Mono','Fira Code',Consolas,monospace; font-size: 14px; }
+    .pr { fill: #38BDF8; font-weight: 600; }
+    .cm { fill: #E2E8F0; font-weight: 600; }
+    .ou { fill: #94A3B8; }
+    .hl { fill: #67E8F9; }
+    @media (prefers-reduced-motion: reduce) { .ln { opacity: 1 !important; animation: none !important; } .cur { animation: none !important; } }
+  </style>
+
+  <!-- window -->
+  <rect x="20" y="20" width="680" height="390" rx="14" fill="#0A192F" stroke="#1E3A5F" stroke-width="1.5"/>
+  <rect x="20" y="20" width="680" height="42" rx="14" fill="url(#thead)"/>
+  <rect x="20" y="48" width="680" height="14" fill="#0D1D30"/>
+  <line x1="21" y1="62" x2="699" y2="62" stroke="#1E3A5F"/>
+
+  <circle cx="46" cy="41" r="5.5" fill="#FF5F56" opacity=".85"/>
+  <circle cx="68" cy="41" r="5.5" fill="#FFBD2E" opacity=".85"/>
+  <circle cx="90" cy="41" r="5.5" fill="#27C93F" opacity=".85"/>
+  <text x="684" y="46" text-anchor="end" font-size="12" fill="#64748B">nazmul@dev:~/portfolio</text>
+
+  <!-- session -->
+  <g class="ln l1"><text x="48" y="100"><tspan class="pr">$ </tspan><tspan class="cm">whoami</tspan></text></g>
+  <g class="ln l2"><text x="48" y="126"><tspan class="hl">Nazmul Hasan</tspan></text></g>
+
+  <g class="ln l3"><text x="48" y="158"><tspan class="pr">$ </tspan><tspan class="cm">role</tspan></text></g>
+  <g class="ln l4"><text x="48" y="184"><tspan class="ou">Full Stack Software Engineer</tspan></text></g>
+
+  <g class="ln l5"><text x="48" y="216"><tspan class="pr">$ </tspan><tspan class="cm">stack</tspan></text></g>
+  <g class="ln l6"><text x="48" y="242"><tspan class="ou">Next.js</tspan><tspan fill="#0EA5E9">&#160;&#183;&#160;</tspan><tspan class="ou">React</tspan><tspan fill="#0EA5E9">&#160;&#183;&#160;</tspan><tspan class="ou">Laravel</tspan><tspan fill="#0EA5E9">&#160;&#183;&#160;</tspan><tspan class="ou">TypeScript</tspan><tspan fill="#0EA5E9">&#160;&#183;&#160;</tspan><tspan class="ou">PHP</tspan></text></g>
+
+  <g class="ln l7"><text x="48" y="268"><tspan class="pr">$ </tspan><tspan class="cm">focus</tspan></text></g>
+  <g class="ln l8"><text x="64" y="290"><tspan class="ou">Scalable architecture</tspan></text></g>
+  <g class="ln l9"><text x="64" y="312"><tspan class="ou">Secure backend systems</tspan></text></g>
+  <g class="ln l10"><text x="64" y="334"><tspan class="ou">Performance-driven interfaces</tspan></text></g>
+
+  <g class="ln l11"><text x="48" y="366"><tspan class="pr">$ </tspan><tspan class="cm">status</tspan></text></g>
+  <g class="ln l12"><text x="48" y="392"><tspan class="hl">Building production-grade software</tspan><tspan class="cur" fill="#67E8F9">_</tspan></text></g>
+</svg>
