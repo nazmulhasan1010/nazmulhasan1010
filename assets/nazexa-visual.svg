@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="nt nd">
+  <title id="nt">Nazexa DB - visual schema studio</title>
+  <desc id="nd">Abstract ERD canvas showing database tables connected by live relationships, with a minimap and animated data packets.</desc>
+  <defs>
+    <linearGradient id="nzbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111F"/>
+      <stop offset=".55" stop-color="#0A192F"/>
+      <stop offset="1" stop-color="#0D1D30"/>
+    </linearGradient>
+    <radialGradient id="nzhalo" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="nzgrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1E3A5F" stroke-width=".5" opacity=".4"/>
+    </pattern>
+    <marker id="nzfoot" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M0 1 L7 5 L0 9 M2 5 H7" fill="none" stroke="#38BDF8" stroke-width="1.3"/>
+    </marker>
+    <marker id="nztick" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M2 1 V9" fill="none" stroke="#38BDF8" stroke-width="1.3"/>
+    </marker>
+    <filter id="nzglow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI',Arial,sans-serif; }
+    .mono { font-family: 'JetBrains Mono','Fira Code',Consolas,monospace; }
+    .rel { animation: nzmarch 18s linear infinite; }
+    @keyframes nzmarch { to { stroke-dashoffset: -240; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <!-- backdrop -->
+  <rect width="1200" height="280" rx="16" fill="url(#nzbg)"/>
+  <rect x="1" y="1" width="1198" height="278" rx="16" fill="url(#nzgrid)" opacity=".45"/>
+  <ellipse cx="240" cy="90" rx="360" ry="140" fill="url(#nzhalo)"/>
+  <rect x="1" y="1" width="1198" height="278" rx="16" fill="none" stroke="#1E3A5F" opacity=".7"/>
+  <path d="M28 52V28h24" fill="none" stroke="#0EA5E9" stroke-width="1.5" opacity=".5"/>
+  <path d="M1148 228v24h-24" fill="none" stroke="#0EA5E9" stroke-width="1.5" opacity=".5"/>
+
+  <!-- kicker -->
+  <circle cx="46" cy="40" r="3" fill="#0EA5E9" filter="url(#nzglow)">
+    <animate attributeName="opacity" values=".6;1;.6" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="58" y="44" font-size="11" letter-spacing="3.5" font-weight="600" fill="#67E8F9">VISUAL SCHEMA STUDIO</text>
+
+  <!-- watermark -->
+  <text x="1160" y="254" text-anchor="end" font-size="42" font-weight="800" letter-spacing="6" fill="#FFFFFF" opacity=".04">NAZEXA DB</text>
+
+  <!-- relationships -->
+  <g fill="none" stroke="#38BDF8" stroke-width="1.3" opacity=".5">
+    <path d="M230 130 C 300 130, 330 116, 400 116" marker-start="url(#nztick)" marker-end="url(#nzfoot)"/>
+    <path class="rel" d="M230 130 C 300 130, 330 116, 400 116" stroke-dasharray="4 8" opacity=".6"/>
+    <path d="M570 116 C 660 116, 700 148, 790 148" marker-start="url(#nztick)" marker-end="url(#nzfoot)"/>
+    <path class="rel" d="M570 116 C 660 116, 700 148, 790 148" stroke-dasharray="4 8" opacity=".6"/>
+    <path d="M570 220 C 660 220, 700 188, 790 188" marker-start="url(#nztick)" marker-end="url(#nzfoot)"/>
+    <path class="rel" d="M570 220 C 660 220, 700 188, 790 188" stroke-dasharray="4 8" opacity=".6"/>
+  </g>
+  <g class="mono" font-size="10" fill="#64748B">
+    <text x="308" y="110">1 : N</text>
+    <text x="668" y="132">1 : N</text>
+    <text x="668" y="236">N : 1</text>
+  </g>
+
+  <!-- table: users -->
+  <g transform="translate(80,84)">
+    <rect width="150" height="92" rx="10" fill="#0D1D30" stroke="#1E3A5F"/>
+    <rect width="150" height="22" rx="10" fill="#12253C"/>
+    <rect y="11" width="150" height="11" fill="#12253C"/>
+    <text class="mono" x="12" y="15" font-size="11" font-weight="700" fill="#67E8F9">users</text>
+    <line x1="1" y1="26" x2="149" y2="26" stroke="#1E3A5F"/>
+    <circle cx="16" cy="38" r="2.2" fill="#F97316"/>
+    <rect x="26" y="35" width="104" height="5" rx="2.5" fill="#22405E"/>
+    <rect x="12" y="51" width="86" height="5" rx="2.5" fill="#1E3A5F"/>
+    <rect x="12" y="67" width="118" height="5" rx="2.5" fill="#1E3A5F"/>
+  </g>
+
+  <!-- table: orders -->
+  <g transform="translate(400,64)">
+    <rect width="170" height="104" rx="10" fill="#0D1D30" stroke="#1E3A5F"/>
+    <rect width="170" height="22" rx="10" fill="#12253C"/>
+    <rect y="11" width="170" height="11" fill="#12253C"/>
+    <text class="mono" x="12" y="15" font-size="11" font-weight="700" fill="#67E8F9">orders</text>
+    <line x1="1" y1="26" x2="169" y2="26" stroke="#1E3A5F"/>
+    <circle cx="16" cy="38" r="2.2" fill="#F97316"/>
+    <rect x="26" y="35" width="96" height="5" rx="2.5" fill="#22405E"/>
+    <circle cx="16" cy="54" r="2.2" fill="#0EA5E9"/>
+    <rect x="26" y="51" width="120" height="5" rx="2.5" fill="#1E3A5F"/>
+    <rect x="12" y="69" width="82" height="5" rx="2.5" fill="#1E3A5F"/>
+    <rect x="12" y="85" width="134" height="5" rx="2.5" fill="#1E3A5F"/>
+  </g>
+
+  <!-- table: products -->
+  <g transform="translate(400,176)">
+    <rect width="170" height="88" rx="10" fill="#0D1D30" stroke="#1E3A5F"/>
+    <rect width="170" height="22" rx="10" fill="#12253C"/>
+    <rect y="11" width="170" height="11" fill="#12253C"/>
+    <text class="mono" x="12" y="15" font-size="11" font-weight="700" fill="#67E8F9">products</text>
+    <line x1="1" y1="26" x2="169" y2="26" stroke="#1E3A5F"/>
+    <circle cx="16" cy="38" r="2.2" fill="#F97316"/>
+    <rect x="26" y="35" width="88" height="5" rx="2.5" fill="#22405E"/>
+    <rect x="12" y="53" width="126" height="5" rx="2.5" fill="#1E3A5F"/>
+    <rect x="12" y="69" width="72" height="5" rx="2.5" fill="#1E3A5F"/>
+  </g>
+
+  <!-- table: payments -->
+  <g transform="translate(790,120)">
+    <rect width="170" height="96" rx="10" fill="#0D1D30" stroke="#0EA5E9" stroke-opacity=".55"/>
+    <rect width="170" height="22" rx="10" fill="#12253C"/>
+    <rect y="11" width="170" height="11" fill="#12253C"/>
+    <text class="mono" x="12" y="15" font-size="11" font-weight="700" fill="#67E8F9">payments</text>
+    <line x1="1" y1="26" x2="169" y2="26" stroke="#1E3A5F"/>
+    <circle cx="16" cy="38" r="2.2" fill="#F97316"/>
+    <rect x="26" y="35" width="112" height="5" rx="2.5" fill="#22405E"/>
+    <circle cx="16" cy="54" r="2.2" fill="#0EA5E9"/>
+    <rect x="26" y="51" width="90" height="5" rx="2.5" fill="#1E3A5F"/>
+    <rect x="12" y="71" width="130" height="5" rx="2.5" fill="#1E3A5F"/>
+  </g>
+
+  <!-- packets along relations -->
+  <circle r="2.6" fill="#67E8F9" filter="url(#nzglow)">
+    <animateMotion dur="5s" repeatCount="indefinite" path="M230 130 C 300 130, 330 116, 400 116"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2.6" fill="#67E8F9" filter="url(#nzglow)">
+    <animateMotion dur="6s" begin="-2.5s" repeatCount="indefinite" path="M570 116 C 660 116, 700 148, 790 148"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="6s" begin="-2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2.6" fill="#38BDF8" filter="url(#nzglow)">
+    <animateMotion dur="6.5s" begin="-4s" repeatCount="indefinite" path="M570 220 C 660 220, 700 188, 790 188"/>
+    <animate attributeName="opacity" values="0;.8;.8;0" keyTimes="0;.08;.92;1" dur="6.5s" begin="-4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- minimap -->
+  <g>
+    <rect x="1010" y="64" width="150" height="104" rx="8" fill="#0A192F" stroke="#1E3A5F" stroke-dasharray="3 4"/>
+    <rect x="1024" y="76" width="34" height="20" rx="3" fill="#22405E"/>
+    <rect x="1078" y="88" width="40" height="24" rx="3" fill="#1E3A5F"/>
+    <rect x="1040" y="120" width="46" height="22" rx="3" fill="#1E3A5F"/>
+    <rect x="1096" y="128" width="36" height="18" rx="3" fill="#22405E"/>
+    <rect width="64" height="44" rx="4" fill="#0EA5E9" fill-opacity=".07" stroke="#0EA5E9" stroke-width="1.2">
+      <animateTransform attributeName="transform" type="translate" values="1020 70;1084 116;1050 90;1020 70" keyTimes="0;.4;.75;1" dur="16s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1085" y="186" text-anchor="middle" class="mono" font-size="9" letter-spacing="2" fill="#64748B">MINIMAP</text>
+  </g>
+
+  <!-- zoom controls hint -->
+  <g font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#94A3B8" text-anchor="middle">
+    <rect x="44" y="232" width="24" height="24" rx="6" fill="#0D1D30" stroke="#1E3A5F"/>
+    <text x="56" y="249">+</text>
+    <rect x="74" y="232" width="24" height="24" rx="6" fill="#0D1D30" stroke="#1E3A5F"/>
+    <text x="86" y="249">-</text>
+  </g>
+</svg>

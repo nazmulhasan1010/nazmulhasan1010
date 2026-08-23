@@ -116,49 +116,97 @@ handover:       precise, maintained docs
 
 ## FEATURED PROJECTS
 
-#### `01` &#183; NH Notification &nbsp; ![Active](https://img.shields.io/badge/STATUS-ACTIVE-22C55E?style=flat-square&labelColor=0A192F)
+<p align="center">
+  <em>A curated selection of products and engineering work.</em>
+</p>
+
+<img src="./assets/nazexa-visual.svg" width="100%" alt="Nazexa DB visual schema studio: database tables connected by live relationships, with minimap and zoom canvas"/>
+
+#### `01` &#183; NAZEXA DB &nbsp; ![Active](https://img.shields.io/badge/STATUS-ACTIVE-22C55E?style=flat-square&labelColor=0A192F)
+
+**Professional visual database design and schema management platform.**
+
+Nazexa DB is a modern database design tool for visually creating, managing and documenting database schemas through an intuitive interactive interface -- from first sketch to production-ready migrations.
+
+**KEY FEATURES**
+
+- Visual database schema and ERD design
+- Drag-and-drop table relationships and connections
+- Support for multiple database technologies
+- SQL, Prisma, Laravel and other schema import/export workflows
+- Interactive diagrams with zoom, minimap, grid and auto-layout
+- Table and column management -- data types, indexes, keys and relationships
+- Modern collaborative developer-focused workflow
+
+**STACK**
+
+![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+<br/>
+
+<a href="https://nazexa.com/db-design">
+  <img src="https://img.shields.io/badge/EXPLORE_NAZEXA_DB-0EA5E9?style=for-the-badge" alt="Explore Nazexa DB"/>
+</a>
+&nbsp;
+<a href="https://nazexa.com">
+  <img src="https://img.shields.io/badge/NAZEXA_PLATFORM-0D1D30?style=for-the-badge" alt="Nazexa platform"/>
+</a>
+
+<img src="./assets/project-flow.svg" width="100%" alt="Project separator"/>
+
+#### `02` &#183; NH Notification &nbsp; ![Active](https://img.shields.io/badge/STATUS-ACTIVE-22C55E?style=flat-square&labelColor=0A192F)
 
 **Modern Laravel package for multi-channel notifications.**
 
-- Multi-channel delivery -- email, SMS and push notifications
-- Driver-based architecture with production-ready design
-- Queue-ready dispatch out of the box
+Deliver email, SMS and push notifications through one clean, driver-based API designed for production workloads.
+
+- Unified multi-channel delivery -- email, SMS and push
+- Driver-based architecture with swappable channels
+- Queue-ready dispatch with retry handling
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![Stars](https://img.shields.io/github/stars/nazmulhasan1010/nht-notification?style=flat-square&logo=github&logoColor=0EA5E9&labelColor=0D1D30&color=0EA5E9&label=stars)
 
 <a href="https://github.com/nazmulhasan1010/nht-notification">
-  <img src="https://img.shields.io/badge/OPEN_PROJECT-0EA5E9?style=for-the-badge&logo=github&logoColor=white" alt="Open NH Notification on GitHub"/>
+  <img src="https://img.shields.io/badge/VIEW_ON_GITHUB-0D1D30?style=for-the-badge&logo=github&logoColor=0EA5E9" alt="Open NH Notification on GitHub"/>
 </a>
 
-<img src="./assets/project-line.svg" width="100%" alt="Section divider"/>
+<img src="./assets/project-flow.svg" width="100%" alt="Project separator"/>
 
-#### `02` &#183; Laravel File Manager &nbsp; ![Stable](https://img.shields.io/badge/STATUS-STABLE-8B5CF6?style=flat-square&labelColor=0A192F)
+#### `03` &#183; Laravel File Manager &nbsp; ![Stable](https://img.shields.io/badge/STATUS-STABLE-8B5CF6?style=flat-square&labelColor=0A192F)
 
-**Storage management with a modern interface.**
+**Modern storage and file management for Laravel applications.**
+
+A complete file management layer that plugs into the Laravel storage ecosystem with a clean, modern interface.
 
 - Full storage and directory management
-- Drag-and-drop interactions with a modern UI
-- Built natively for the Laravel ecosystem
+- Fluid drag-and-drop interactions
+- Laravel-native integration out of the box
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![Stars](https://img.shields.io/github/stars/nazmulhasan1010/laravel-file-manager?style=flat-square&logo=github&logoColor=0EA5E9&labelColor=0D1D30&color=0EA5E9&label=stars)
 
 <a href="https://github.com/nazmulhasan1010/laravel-file-manager">
-  <img src="https://img.shields.io/badge/OPEN_PROJECT-0EA5E9?style=for-the-badge&logo=github&logoColor=white" alt="Open Laravel File Manager on GitHub"/>
+  <img src="https://img.shields.io/badge/VIEW_ON_GITHUB-0D1D30?style=for-the-badge&logo=github&logoColor=0EA5E9" alt="Open Laravel File Manager on GitHub"/>
 </a>
 
-<img src="./assets/project-line.svg" width="100%" alt="Section divider"/>
+<img src="./assets/project-flow.svg" width="100%" alt="Project separator"/>
 
-#### `03` &#183; Pricing Card System &nbsp; ![Stable](https://img.shields.io/badge/STATUS-STABLE-8B5CF6?style=flat-square&labelColor=0A192F)
+#### `04` &#183; Pricing Card System &nbsp; ![Stable](https://img.shields.io/badge/STATUS-STABLE-8B5CF6?style=flat-square&labelColor=0A192F)
 
-**Responsive pricing components built from reusable primitives.**
+**Responsive and reusable pricing interface components.**
 
-- Responsive UI across every breakpoint
-- Animation-driven interactions
-- Reusable component-first design
+Production-ready pricing UI built from reusable primitives with smooth, purposeful interaction design.
+
+- Fully responsive across every breakpoint
+- Smooth interactive animations
+- Component-first architecture
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
@@ -166,18 +214,20 @@ handover:       precise, maintained docs
 ![Stars](https://img.shields.io/github/stars/nazmulhasan1010/Pricing-card?style=flat-square&logo=github&logoColor=0EA5E9&labelColor=0D1D30&color=0EA5E9&label=stars)
 
 <a href="https://github.com/nazmulhasan1010/Pricing-card">
-  <img src="https://img.shields.io/badge/OPEN_PROJECT-0EA5E9?style=for-the-badge&logo=github&logoColor=white" alt="Open Pricing Card System on GitHub"/>
+  <img src="https://img.shields.io/badge/VIEW_ON_GITHUB-0D1D30?style=for-the-badge&logo=github&logoColor=0EA5E9" alt="Open Pricing Card System on GitHub"/>
 </a>
 
-<img src="./assets/project-line.svg" width="100%" alt="Section divider"/>
+<img src="./assets/project-flow.svg" width="100%" alt="Project separator"/>
 
-#### `04` &#183; Chat Application &nbsp; ![In Development](https://img.shields.io/badge/STATUS-IN_DEVELOPMENT-F59E0B?style=flat-square&labelColor=0A192F)
+#### `05` &#183; Chat Application &nbsp; ![In Development](https://img.shields.io/badge/STATUS-IN_DEVELOPMENT-F59E0B?style=flat-square&labelColor=0A192F)
 
-**Realtime messaging platform at scale.**
+**Realtime messaging platform built with a scalable architecture.**
 
-- Realtime messaging over Socket.io
+A realtime chat system engineered around sockets, secure identity and a backend designed to grow with traffic.
+
+- Socket.io realtime messaging layer
 - Secure authentication flows
-- Scalable backend architecture
+- Scalable backend design
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Socket.io](https://img.shields.io/badge/Socket.io-white?style=flat-square&logo=socketdotio&logoColor=black)
@@ -185,24 +235,10 @@ handover:       precise, maintained docs
 ![Stars](https://img.shields.io/github/stars/nazmulhasan1010/chat-app?style=flat-square&logo=github&logoColor=0EA5E9&labelColor=0D1D30&color=0EA5E9&label=stars)
 
 <a href="https://github.com/nazmulhasan1010/chat-app">
-  <img src="https://img.shields.io/badge/OPEN_PROJECT-0EA5E9?style=for-the-badge&logo=github&logoColor=white" alt="Open Chat Application on GitHub"/>
+  <img src="https://img.shields.io/badge/VIEW_ON_GITHUB-0D1D30?style=for-the-badge&logo=github&logoColor=0EA5E9" alt="Open Chat Application on GitHub"/>
 </a>
 
 <img src="./assets/divider.svg" width="100%" alt="Section divider"/>
-
-## GITHUB PERFORMANCE
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=nazmulhasan1010&show_icons=true&hide_border=true&bg_color=0D1D30&title_color=0EA5E9&icon_color=38BDF8&text_color=FFFFFF&include_all_commits=true&count_private=true" height="160" alt="GitHub statistics for nazmulhasan1010"/>
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nazmulhasan1010&layout=compact&hide_border=true&bg_color=0D1D30&title_color=0EA5E9&text_color=FFFFFF" height="160" alt="Most used languages"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=nazmulhasan1010&hide_border=true&background=0D1D30&ring=0EA5E9&fire=F97316&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=94A3B8" alt="GitHub streak statistics"/>
-
-</div>
 
 ## CONTRIBUTION ACTIVITY
 
@@ -213,14 +249,6 @@ handover:       precise, maintained docs
 <img src="./assets/contribution-snake.svg" width="100%" alt="Contribution snake animation eating the contribution grid, generated daily via GitHub Actions"/>
 
 <img src="./assets/divider.svg" width="100%" alt="Section divider"/>
-
-## SUPPORT MY WORK
-
-<p align="center">
-  <a href="https://buymeacoffee.com/nazmulhasan1010">
-    <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-0A192F?style=for-the-badge&logo=buy-me-a-coffee&logoColor=F97316" alt="Buy Me a Coffee"/>
-  </a>
-</p>
 
 <!-- ==================== FOOTER ==================== -->
 <img src="./assets/footer.svg" width="100%" alt="Build, Ship, Improve. Thanks for visiting."/>
