@@ -1,35 +1,6 @@
 <!-- ==================== HERO ==================== -->
 <img src="./assets/hero.svg" width="100%" alt="Nazmul Hasan - Full Stack Software Engineer. Next.js, Laravel, React, TypeScript, PHP. Building scalable systems, secure APIs and modern digital experiences."/>
 
----
-
-## CONNECT WITH ME
-
-<p align="center">
-  <a href="https://github.com/nazmulhasan1010">
-    <img src="https://komarev.com/ghpvc/?username=nazmulhasan1010&style=for-the-badge&color=0EA5E9&label=PROFILE+VIEWS" alt="Profile views"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="mailto:nazmulhasan169369@gmail.com">
-    <img src="https://img.shields.io/badge/Email-0A192F?style=for-the-badge&logo=gmail&logoColor=0EA5E9" alt="Email"/>
-  </a>
-  <a href="https://linkedin.com/in/nazmulhasan1010">
-    <img src="https://img.shields.io/badge/LinkedIn-0A192F?style=for-the-badge&logo=linkedin&logoColor=0EA5E9" alt="LinkedIn"/>
-  </a>
-  <a href="https://www.npmjs.com/~nazmul_hasan_1010">
-    <img src="https://img.shields.io/badge/NPM-0A192F?style=for-the-badge&logo=npm&logoColor=0EA5E9" alt="NPM"/>
-  </a>
-  <a href="https://github.com/nazmulhasan1010">
-    <img src="https://img.shields.io/badge/GitHub-0A192F?style=for-the-badge&logo=github&logoColor=0EA5E9" alt="GitHub"/>
-  </a>
-</p>
-
-<img src="./assets/divider.svg" width="100%" alt="Section divider"/>
-
----
-
 ## ABOUT
 
 Full Stack Software Engineer focused on building scalable web platforms,
